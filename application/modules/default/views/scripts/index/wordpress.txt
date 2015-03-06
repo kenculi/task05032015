@@ -1,0 +1,14 @@
+Database   
+   Root User: adminqtHaAxi
+   Root Password: pvkIx4nADzYY
+   Database Name: ken
+
+Connection URL: mysql://$OPENSHIFT_MYSQL_DB_HOST:$OPENSHIFT_MYSQL_DB_PORT/
+
+phpmyadmin
+  Root User: adminqtHaAxi
+  Root Password: pvkIx4nADzYY
+URL: https://ken-vinars.rhcloud.com/phpmyadmin/
+
+
+ssh://54f6ac56e0b8cdf993000135@ken-vinars.rhcloud.com/~/git/ken.git/

@@ -4,21 +4,36 @@
     <style type="text/css">
         .container{margin-top:30px;}
     </style>
-    <script type="text/javascript" src="/public/js/lib/jquery-1.11.1.js"></script>
+    <script type="text/javascript" src="/task05032015/public/js/lib/jquery-1.11.1.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
     <script type="text/javascript">
-        function showextension()
+        function readfile()
         {
             var x = $('#file').val();
             type = x.split('.').pop().toLowerCase();
-            if(type == 'txt')
+            if(type == "txt")
             {
+                var e = document.getElementById("err");
+                e.parentNode.removeChild(e);
 
+                var key = $('#key').val();
+                var strkey = "/"+key+"/gi";
+                var file = document.getElementById("file").files[0];
 
-            }
-            else
-                document.getElementById("err").innerHTML = "File extension not is (txt) ! ";
+                var fileReader = new FileReader();
+                fileReader.onload = function (fileLoadedEvent) {
+                var textFromFileLoaded= fileLoadedEvent.target.result;
+
+                var rsult = textFromFileLoaded.replace(strkey,"<span style='background-color:yellow;'>"+key+"</span>");
+                document.getElementById("content").innerHTML = rsult + "<br>"+strkey;
+                };
+                fileReader.readAsText(file, "UTF-8");
+
+            };
+            if (type != "txt") {
+                document.getElementById("err").innerHTML = "File extension isn't support ! ";
+            };
         }
     </script>
 </head>
@@ -27,15 +42,18 @@
         <div class="row">
             <p>
                 <div class="col-md-2"><label for="file">3. Choose file: </label></div>
-                <div class="col-md-4"><input class="form-control" type="file" id="txt" name="txt"></div>
+                <div class="col-md-4"><input class="form-control" type="file" id="file" name="file"></div>
                 <div class="col-md-1"><label>Keyword: </label></div>
                 <div class="col-md-4"><input class="form-control" type="text" id="key" name="key"></div>
-                <div class="col-md-1" id="err"></div>
+                <div class="col-md-1" style="color:red;" id="err"></div>
                 </div>
             </p>
+            <div id="content">
+            </div>
                 <div class="row" align="center">
-                    <input class="btn btn-success" type="button" name="showText" value="Show">
+                    <button class="btn btn-success" onclick="readfile()">Show</button>
                 </div>
+                <div class="row"><a href="<?php echo $this->url(array('controller' => 'index','action'=>'index')); ?>">Back</a></div>
     </div>
 </body>
 </html>
