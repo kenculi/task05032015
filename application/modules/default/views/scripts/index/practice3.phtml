@@ -18,15 +18,15 @@
                 e.parentNode.removeChild(e);
 
                 var key = $('#key').val();
-                var strkey = "/"+key+"/gi";
-                var file = document.getElementById("file").files[0];
+                var reg = new RegExp(key, 'gi');
 
+                var file = document.getElementById("file").files[0];
                 var fileReader = new FileReader();
                 fileReader.onload = function (fileLoadedEvent) {
                 var textFromFileLoaded= fileLoadedEvent.target.result;
 
-                var rsult = textFromFileLoaded.replace(strkey,"<span style='background-color:yellow;'>"+key+"</span>");
-                document.getElementById("content").innerHTML = rsult + "<br>"+strkey;
+                var rsult = textFromFileLoaded.replace(reg,"<span style='background-color:yellow;'>"+key+"</span>");
+                document.getElementById("content").innerHTML = rsult;
                 };
                 fileReader.readAsText(file, "UTF-8");
 
