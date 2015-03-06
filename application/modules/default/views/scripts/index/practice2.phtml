@@ -1,0 +1,30 @@
+
+<html>
+<head>
+    <style type="text/css">
+        .container{margin-top:30px;}
+    </style>
+    <script type="text/javascript" src="/public/js/lib/jquery-1.11.1.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+        function showextension()
+        {
+            var x = $('#file').val();
+            type = x.split('.').pop().toLowerCase();
+            document.getElementById("info_file").innerHTML = "File extension: "+type;
+        }
+    </script>
+</head>
+<body>
+    <div class="container">
+                <div class="row">
+                    <div class="col-md-2"><label for="file">2. Choose file: </label></div>
+                    <div class="col-md-4"><input class="form-control" type="file" id="file" name="file"></div>
+                    <div class="col-md-2"><div style="color:red;" id="info_file" name="info_file"></div></div>
+                    <div class="col-md-2"><button id="checkFile" class="btn btn-success" onclick="showextension()">Check</button></div>
+                </div>
+                <div class="row"><a href="<?php echo $this->url(array('controller' => 'index','action'=>'index')); ?>">Back</a></div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,187 @@
+2015-03-05T09:44:47+01:00 NOTICE (5): Page not found
+2015-03-05T09:44:47+01:00 NOTICE (5): Invalid controller specified (success.php)
+2015-03-05T09:44:47+01:00 NOTICE (5): #0 C:\wamp\www\vuong\library\Zend\Controller\Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#1 C:\wamp\www\vuong\library\Zend\Application\Bootstrap\Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#2 C:\wamp\www\vuong\init.php(34): Zend_Application_Bootstrap_Bootstrap->run()
+#3 C:\wamp\www\vuong\public\index.php(3): Application::run()
+#4 {main}
+2015-03-05T09:44:47+01:00 NOTICE (5): array (
+  'controller' => 'success.php',
+  'action' => 'index',
+  'module' => 'default',
+  'email' => 'dD@FDS',
+  'key' => '',
+  'submit' => 'Submit',
+)
+2015-03-05T09:46:20+01:00 NOTICE (5): Page not found
+2015-03-05T09:46:20+01:00 NOTICE (5): Invalid controller specified (success.php)
+2015-03-05T09:46:20+01:00 NOTICE (5): #0 C:\wamp\www\vuong\library\Zend\Controller\Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#1 C:\wamp\www\vuong\library\Zend\Application\Bootstrap\Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#2 C:\wamp\www\vuong\init.php(34): Zend_Application_Bootstrap_Bootstrap->run()
+#3 C:\wamp\www\vuong\public\index.php(3): Application::run()
+#4 {main}
+2015-03-05T09:46:20+01:00 NOTICE (5): array (
+  'controller' => 'success.php',
+  'action' => 'index',
+  'module' => 'default',
+)
+2015-03-05T09:46:23+01:00 NOTICE (5): Page not found
+2015-03-05T09:46:23+01:00 NOTICE (5): Invalid controller specified (success.php)
+2015-03-05T09:46:23+01:00 NOTICE (5): #0 C:\wamp\www\vuong\library\Zend\Controller\Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#1 C:\wamp\www\vuong\library\Zend\Application\Bootstrap\Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#2 C:\wamp\www\vuong\init.php(34): Zend_Application_Bootstrap_Bootstrap->run()
+#3 C:\wamp\www\vuong\public\index.php(3): Application::run()
+#4 {main}
+2015-03-05T09:46:23+01:00 NOTICE (5): array (
+  'controller' => 'success.php',
+  'action' => 'index',
+  'module' => 'default',
+  'email' => 'dD@FDS',
+  'key' => '',
+  'submit' => 'Submit',
+)
+2015-03-05T09:46:39+01:00 NOTICE (5): Page not found
+2015-03-05T09:46:39+01:00 NOTICE (5): Invalid controller specified (success.php)
+2015-03-05T09:46:39+01:00 NOTICE (5): #0 C:\wamp\www\vuong\library\Zend\Controller\Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#1 C:\wamp\www\vuong\library\Zend\Application\Bootstrap\Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#2 C:\wamp\www\vuong\init.php(34): Zend_Application_Bootstrap_Bootstrap->run()
+#3 C:\wamp\www\vuong\public\index.php(3): Application::run()
+#4 {main}
+2015-03-05T09:46:39+01:00 NOTICE (5): array (
+  'controller' => 'success.php',
+  'action' => 'index',
+  'module' => 'default',
+  'email' => 'dD@FDS',
+  'key' => '',
+  'submit' => 'Submit',
+)
+2015-03-05T10:43:17+01:00 NOTICE (5): Page not found
+2015-03-05T10:43:17+01:00 NOTICE (5): Invalid controller specified (public)
+2015-03-05T10:43:17+01:00 NOTICE (5): #0 C:\wamp\www\vuong\library\Zend\Controller\Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#1 C:\wamp\www\vuong\library\Zend\Application\Bootstrap\Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#2 C:\wamp\www\vuong\init.php(34): Zend_Application_Bootstrap_Bootstrap->run()
+#3 C:\wamp\www\vuong\public\index.php(3): Application::run()
+#4 {main}
+2015-03-05T10:43:17+01:00 NOTICE (5): array (
+  'controller' => 'public',
+  'action' => 'js',
+  'lib' => 'jquery-1.11.1.js',
+  'module' => 'default',
+)
+2015-03-05T10:43:22+01:00 NOTICE (5): Page not found
+2015-03-05T10:43:22+01:00 NOTICE (5): Invalid controller specified (public)
+2015-03-05T10:43:22+01:00 NOTICE (5): #0 C:\wamp\www\vuong\library\Zend\Controller\Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#1 C:\wamp\www\vuong\library\Zend\Application\Bootstrap\Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#2 C:\wamp\www\vuong\init.php(34): Zend_Application_Bootstrap_Bootstrap->run()
+#3 C:\wamp\www\vuong\public\index.php(3): Application::run()
+#4 {main}
+2015-03-05T10:43:22+01:00 NOTICE (5): array (
+  'controller' => 'public',
+  'action' => 'js',
+  'lib' => 'jquery-1.11.1.js',
+  'module' => 'default',
+)
+2015-03-05T10:43:25+01:00 NOTICE (5): Page not found
+2015-03-05T10:43:25+01:00 NOTICE (5): Invalid controller specified (public)
+2015-03-05T10:43:25+01:00 NOTICE (5): #0 C:\wamp\www\vuong\library\Zend\Controller\Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#1 C:\wamp\www\vuong\library\Zend\Application\Bootstrap\Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#2 C:\wamp\www\vuong\init.php(34): Zend_Application_Bootstrap_Bootstrap->run()
+#3 C:\wamp\www\vuong\public\index.php(3): Application::run()
+#4 {main}
+2015-03-05T10:43:25+01:00 NOTICE (5): array (
+  'controller' => 'public',
+  'action' => 'js',
+  'lib' => 'jquery-1.11.1.js',
+  'module' => 'default',
+)
+2015-03-05T10:48:35+01:00 NOTICE (5): Page not found
+2015-03-05T10:48:35+01:00 NOTICE (5): Invalid controller specified (application)
+2015-03-05T10:48:35+01:00 NOTICE (5): #0 C:\wamp\www\vuong\library\Zend\Controller\Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#1 C:\wamp\www\vuong\library\Zend\Application\Bootstrap\Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#2 C:\wamp\www\vuong\init.php(34): Zend_Application_Bootstrap_Bootstrap->run()
+#3 C:\wamp\www\vuong\public\index.php(3): Application::run()
+#4 {main}
+2015-03-05T10:48:35+01:00 NOTICE (5): array (
+  'controller' => 'application',
+  'action' => 'public',
+  'js' => 'lib',
+  'module' => 'default',
+)
+2015-03-05T11:19:36+01:00 NOTICE (5): Page not found
+2015-03-05T11:19:36+01:00 NOTICE (5): Action "practice1" does not exist and was not trapped in __call()
+2015-03-05T11:19:36+01:00 NOTICE (5): #0 C:\wamp\www\vuong\library\Zend\Controller\Action.php(518): Zend_Controller_Action->__call('practice1Action', Array)
+#1 C:\wamp\www\vuong\library\Zend\Controller\Dispatcher\Standard.php(308): Zend_Controller_Action->dispatch('practice1Action')
+#2 C:\wamp\www\vuong\library\Zend\Controller\Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#3 C:\wamp\www\vuong\library\Zend\Application\Bootstrap\Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#4 C:\wamp\www\vuong\init.php(34): Zend_Application_Bootstrap_Bootstrap->run()
+#5 C:\wamp\www\vuong\public\index.php(3): Application::run()
+#6 {main}
+2015-03-05T11:19:36+01:00 NOTICE (5): array (
+  'controller' => 'index',
+  'action' => 'practice1',
+  'module' => 'default',
+)
+2015-03-05T11:19:43+01:00 NOTICE (5): Page not found
+2015-03-05T11:19:43+01:00 NOTICE (5): Invalid controller specified (practice1)
+2015-03-05T11:19:43+01:00 NOTICE (5): #0 C:\wamp\www\vuong\library\Zend\Controller\Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#1 C:\wamp\www\vuong\library\Zend\Application\Bootstrap\Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#2 C:\wamp\www\vuong\init.php(34): Zend_Application_Bootstrap_Bootstrap->run()
+#3 C:\wamp\www\vuong\public\index.php(3): Application::run()
+#4 {main}
+2015-03-05T11:19:43+01:00 NOTICE (5): array (
+  'controller' => 'practice1',
+  'action' => 'index',
+  'module' => 'default',
+)
+2015-03-05T11:19:45+01:00 NOTICE (5): Page not found
+2015-03-05T11:19:45+01:00 NOTICE (5): Invalid controller specified (practice1)
+2015-03-05T11:19:45+01:00 NOTICE (5): #0 C:\wamp\www\vuong\library\Zend\Controller\Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#1 C:\wamp\www\vuong\library\Zend\Application\Bootstrap\Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#2 C:\wamp\www\vuong\init.php(34): Zend_Application_Bootstrap_Bootstrap->run()
+#3 C:\wamp\www\vuong\public\index.php(3): Application::run()
+#4 {main}
+2015-03-05T11:19:45+01:00 NOTICE (5): array (
+  'controller' => 'practice1',
+  'action' => 'index',
+  'module' => 'default',
+)
+2015-03-05T11:19:49+01:00 NOTICE (5): Page not found
+2015-03-05T11:19:49+01:00 NOTICE (5): Invalid controller specified (practice1)
+2015-03-05T11:19:49+01:00 NOTICE (5): #0 C:\wamp\www\vuong\library\Zend\Controller\Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#1 C:\wamp\www\vuong\library\Zend\Application\Bootstrap\Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#2 C:\wamp\www\vuong\init.php(34): Zend_Application_Bootstrap_Bootstrap->run()
+#3 C:\wamp\www\vuong\public\index.php(3): Application::run()
+#4 {main}
+2015-03-05T11:19:49+01:00 NOTICE (5): array (
+  'controller' => 'practice1',
+  'action' => 'index',
+  'module' => 'default',
+)
+2015-03-05T11:19:58+01:00 NOTICE (5): Page not found
+2015-03-05T11:19:58+01:00 NOTICE (5): Action "practice1" does not exist and was not trapped in __call()
+2015-03-05T11:19:58+01:00 NOTICE (5): #0 C:\wamp\www\vuong\library\Zend\Controller\Action.php(518): Zend_Controller_Action->__call('practice1Action', Array)
+#1 C:\wamp\www\vuong\library\Zend\Controller\Dispatcher\Standard.php(308): Zend_Controller_Action->dispatch('practice1Action')
+#2 C:\wamp\www\vuong\library\Zend\Controller\Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#3 C:\wamp\www\vuong\library\Zend\Application\Bootstrap\Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#4 C:\wamp\www\vuong\init.php(34): Zend_Application_Bootstrap_Bootstrap->run()
+#5 C:\wamp\www\vuong\public\index.php(3): Application::run()
+#6 {main}
+2015-03-05T11:19:58+01:00 NOTICE (5): array (
+  'controller' => 'index',
+  'action' => 'practice1',
+  'module' => 'default',
+)
+2015-03-05T11:21:08+01:00 NOTICE (5): Page not found
+2015-03-05T11:21:08+01:00 NOTICE (5): Action "practice1" does not exist and was not trapped in __call()
+2015-03-05T11:21:08+01:00 NOTICE (5): #0 C:\wamp\www\vuong\library\Zend\Controller\Action.php(518): Zend_Controller_Action->__call('practice1Action', Array)
+#1 C:\wamp\www\vuong\library\Zend\Controller\Dispatcher\Standard.php(308): Zend_Controller_Action->dispatch('practice1Action')
+#2 C:\wamp\www\vuong\library\Zend\Controller\Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#3 C:\wamp\www\vuong\library\Zend\Application\Bootstrap\Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#4 C:\wamp\www\vuong\init.php(34): Zend_Application_Bootstrap_Bootstrap->run()
+#5 C:\wamp\www\vuong\public\index.php(3): Application::run()
+#6 {main}
+2015-03-05T11:21:08+01:00 NOTICE (5): array (
+  'controller' => 'index',
+  'action' => 'practice1',
+  'module' => 'default',
+)

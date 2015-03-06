@@ -1,0 +1,41 @@
+
+<html>
+<head>
+    <style type="text/css">
+        .container{margin-top:30px;}
+    </style>
+    <script type="text/javascript" src="/public/js/lib/jquery-1.11.1.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+        function showextension()
+        {
+            var x = $('#file').val();
+            type = x.split('.').pop().toLowerCase();
+            if(type == 'txt')
+            {
+
+
+            }
+            else
+                document.getElementById("err").innerHTML = "File extension not is (txt) ! ";
+        }
+    </script>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <p>
+                <div class="col-md-2"><label for="file">3. Choose file: </label></div>
+                <div class="col-md-4"><input class="form-control" type="file" id="txt" name="txt"></div>
+                <div class="col-md-1"><label>Keyword: </label></div>
+                <div class="col-md-4"><input class="form-control" type="text" id="key" name="key"></div>
+                <div class="col-md-1" id="err"></div>
+                </div>
+            </p>
+                <div class="row" align="center">
+                    <input class="btn btn-success" type="button" name="showText" value="Show">
+                </div>
+    </div>
+</body>
+</html>
