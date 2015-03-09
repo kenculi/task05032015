@@ -1,0 +1,27 @@
+
+<html>
+<head>
+    <style type="text/css">
+        .container{margin-top:30px;}
+    </style>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+
+    </script>
+</head>
+<body>
+    <div class="container">
+        <form method="post" action="<?php echo $this->url(array('action'=>'success')); ?>" enctype="multipart/form-data">
+                <div class="row">
+                    <div class="col-md-2"><label for="file">3. Choose file: </label></div>
+                    <div class="col-md-4"><input class="form-control" type="file" id="file_show" name="file_show"></div>
+                    <div class="col-md-1"><label>Keyword: </label></div>
+                    <div class="col-md-4"><input class="form-control" type="text" id="key" name="key"></div>
+                    <div class="col-md-1"><input class="btn btn-success" type="submit" id="fileshow" name="fileshow" value="Show"></div>
+                </div>
+                <div class="row"><a href="<?php echo $this->url(array('action'=>'index')); ?>">Back</a></div>
+        </form>
+    </div>
+</body>
+</html>

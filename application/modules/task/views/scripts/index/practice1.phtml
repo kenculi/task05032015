@@ -1,0 +1,25 @@
+
+<html>
+<head>
+    <style type="text/css">
+        .container{margin-top:30px;}
+    </style>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+
+    </script>
+</head>
+<body>
+    <div class="container">
+            <form method="post" action="<?php echo $this->url(array('action'=>'success')); ?>">
+                <div class="row">
+                    <div class="col-md-2"><label for="email">1. Input email: </label></div>
+                    <div class="col-md-4"><input class="form-control" type="text" id="email" name="email" required></div>
+                    <div class="col-md-2"><input class="btn btn-success" type="submit" id="submitMail" name="submitMail" value="Submit"></div>
+                </div>
+            </form>
+            <div class="row"><a href="<?php echo $this->url(array('action'=>'index')); ?>">Back</a></div>
+    </div>
+</body>
+</html>

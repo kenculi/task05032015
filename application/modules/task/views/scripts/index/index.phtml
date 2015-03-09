@@ -1,0 +1,35 @@
+
+<html>
+<head>
+    <style type="text/css">
+        .container{margin-top:30px;}
+    </style>
+    <script type="text/javascript" src="/public/js/lib/jquery-1.11.1.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+    
+</head>
+<body>
+    <div class="container">
+
+            <fieldset>
+                <legend>Task 1</legend>
+                <p><div class="row">
+                    <div class="col-md-2"><label>1. Input email: </label></div>
+                    <div class="col-md-4"><a class="btn btn-default" href="<?php echo $this->url(array('action' => 'practice1')); ?>">Go to</a></div>
+                </div></p>
+
+                <p><div class="row">
+                    <div class="col-md-2"><label>2. File extension: </label></div>
+                    <div class="col-md-4"><a class="btn btn-default" href="<?php echo $this->url(array('action' => 'practice2')); ?>">Go to</a></div>
+                </div></p>
+
+                <p><div class="row">
+                    <div class="col-md-2"><label>3. Show content of file and high-light keyword: </label></div>
+                    <div class="col-md-4"><a class="btn btn-default" href="<?php echo $this->url(array('action' => 'practice3')); ?>">Go to</a></div>
+                </div></p>
+            </fieldset>
+                
+    </div>
+</body>
+</html>

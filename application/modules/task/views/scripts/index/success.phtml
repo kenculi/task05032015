@@ -1,0 +1,60 @@
+<html>
+<head>
+    <style type="text/css">
+        .container{margin-top:30px;}
+    </style>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+    <style type="text/css">
+        .err{color:red;}
+        .info{color: blue;}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <?php
+            //Process for check email
+            if (isset($_POST['submitMail'])) {
+                $email = $_POST['email'];
+                if (filter_var($email,FILTER_VALIDATE_EMAIL)) {
+                    echo "<p class='err'>Your email: <span class='info'>".$email."</span> is valid !</p>";
+                }
+                else
+                    echo "<p class='err'>Your email is invalid ! Please try again !</p>";
+            }
+            //Process for show extension of file
+            if (isset($_POST['submitFile'])) {
+                if ($_FILES['file']['name'] != "") {
+                    echo "<p class='err'>File extension: <span class='info'>".$_FILES['file']['type']."</span></p>";
+                }
+                else
+                    echo "<p class='err'>Please choose file and Submit !</p>";
+            }
+
+            //Process for show content of file text
+            if (isset($_POST['fileshow'])) {
+                $file_name = $_FILES['file_show']['name'];
+                if ($file_name != "") {
+                    $target_dir = APPLICATION_PATH ."/upload/";
+                    $target_file = $target_dir.basename($file_name);
+
+                    $upload = move_uploaded_file($_FILES["file_show"]["tmp_name"], $target_file);
+                    if ($upload) {
+                        $readf = fopen($target_file,"r");
+                        if (!$readf) {
+                            echo "Can not open file !";
+                        }
+                        while (!feof($readf)) {
+                            $content = fgets($readf);
+                            
+                        }
+                        fclose($readf);
+                    }
+                }
+                else
+                    echo "<p class='err'>Please choose file and Submit !</p>";
+            }
+        ?>
+    </div>
+</body>
+</html>
