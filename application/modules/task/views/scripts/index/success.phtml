@@ -8,6 +8,7 @@
     <style type="text/css">
         .err{color:red;}
         .info{color: blue;}
+        .high-light{background-color: yellow;}
     </style>
 </head>
 <body>
@@ -33,6 +34,7 @@
 
             //Process for show content of file text
             if (isset($_POST['fileshow'])) {
+                $key = $_POST['key'];
                 $file_name = $_FILES['file_show']['name'];
                 if ($file_name != "") {
                     $target_dir = APPLICATION_PATH ."/upload/";
@@ -46,7 +48,9 @@
                         }
                         while (!feof($readf)) {
                             $content = fgets($readf);
-                            
+                            $replace = "<span class='high-light'>".$key."<span>";
+                            $s = str_replace($key,$replace, $content);
+                            echo $s."<br>";
                         }
                         fclose($readf);
                     }
